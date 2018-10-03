@@ -1,0 +1,12 @@
+function [voisin] = calculer_distance(ex, base_ref, label)
+%CALCULER_DISTANCE Summary of this function goes here
+%   Detailed explanation goes here
+tmp = zeros([1 length(base_er)]);
+    for i = 1 : length(point_distant)
+        tmp(i) = (ex(i) - point_distant(i)).^2;
+    end
+    voisin(1) = sum(tmp);
+    voisin(2) = label;
+    
+end
+
